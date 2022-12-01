@@ -1,0 +1,15 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WinClock"
+        mc:Ignorable="d"
+        Title="Clock" Height="150" Width="300" WindowStyle="None" AllowsTransparency="True" Background="#FF2E2E2E" Foreground="White" MinWidth="300" MinHeight="150" Topmost="True">
+    <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+        <TextBlock x:Name="txtDate" TextWrapping="Wrap" Text="yyyy-MM-dd" FontSize="48" FontWeight="Bold"/>
+        <TextBlock x:Name="txtTime" TextWrapping="Wrap" Text="HH:mm:ss" FontSize="48" FontWeight="Bold" FontFamily="Meiryo"/>
+    </StackPanel>
+    <Window.InputBindings>
+    </Window.InputBindings>
+</Window>

@@ -1,0 +1,17 @@
+﻿<Application x:Class="Application"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:WinClock"
+    StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        
+    </Application.Resources>
+    <JumpList.JumpList>
+        <JumpList>
+            <JumpTask CustomCategory="コピー" Title="YYYY-MM-DD" Description="YYYY-MM-DD形式で現在の日付をコピーします。" Arguments="--copy=&quot;YYYY-MM-DD&quot;" />
+            <JumpTask CustomCategory="コピー" Title="YYYY/MM/DD" Description="YYYY/MM/DD形式で現在の日付をコピーします。" Arguments="--copy=&quot;YYYY/MM/DD&quot;" />
+            <JumpTask CustomCategory="コピー" Title="YYYYMMDD" Description="YYYYMMDD形式で現在の日付をコピーします。" Arguments="--copy=&quot;YYYYMMDD&quot;" />
+            <JumpTask Title="設定" Description="設定画面を開きます。" Arguments="--settings" />
+        </JumpList>
+    </JumpList.JumpList>
+</Application>
