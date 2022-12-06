@@ -10,5 +10,5 @@ Windowsで動作する、シンプルな時計です。
   - [ctrl] + [shift] + ホイール：透明度変更
 
 ### ライセンス
-[MIT License]: LICENSE "MIT License"
+[MIT License](LICENSE)
 
